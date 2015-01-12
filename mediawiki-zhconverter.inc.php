@@ -143,7 +143,7 @@ class MediaWikiZhConverter {
                 require_once "languages/LanguageZh.php";
             } else {
                 require_once "languages/classes/LanguageZh.php";
-                require_once "includes/StringUtils.php";
+                require_once "includes/utils/StringUtils.php";
             }
 
             $instance = new MediaWikiZhConverter();
